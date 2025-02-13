@@ -45,14 +45,25 @@ Memory Management:
 The program uses dynamic memory allocation to store the chessboard, knight moves, and paths. It ensures that allocated memory is freed after use to prevent memory leaks.
 
 Structure Definitions
+
 chessPos: Represents a chessboard position, consisting of a letter for the row (A-E) and a number for the column (1-5).
+
 treeNode: Represents a position in the path tree.
+
 pathTree: Represents the entire tree of knight's paths.
+
 chessPosArray: Stores valid knight moves for a given position.
+
 chessPosList: Stores a list of chess positions in the path.
+
 Functions
+
 validKnightMoves(): Generates and returns all valid knight moves for each position on the chessboard.
+
 buildKnightArrayPos(): Builds an array of valid knight moves from a given position.
+
 findAllPossibleKnightPaths(): Recursively finds all possible knight paths starting from a given position.
+
 findKnightPathCoveringAllBoard(): Finds a knight's path that covers all the squares on the board.
+
 display(): Displays the knight's path on the chessboard.
