@@ -14,16 +14,16 @@ Finding All Possible Paths: Recursively explores all possible knight paths start
 Validating Moves: The program validates if the knight's moves are within the board's limits.
 Displaying the Path: Once a valid knight's path covering all squares is found, it is displayed on the chessboard.
 Memory Management: The program dynamically allocates memory for storing paths and chessboard configurations, ensuring efficient memory usage.
-Usage
-Compile the code using a C compiler:
 
-bash
-Copy code
+Usage
+
+Compile the code usingg a C compiler:
+
+
 gcc -o knight_tour main.c knight_moves.c pathfinding.c display.c
 Run the program:
 
-bash
-Copy code
+
 ./knight_tour
 Input a starting position for the knight in the format LetterNumber (e.g., A1, C3). The program will attempt to find a valid knight's tour path that covers all squares.
 
@@ -37,10 +37,10 @@ Knight's Path:
 A1 -> B3 -> D4 -> E2 -> C1 -> A2 -> B4 -> D5 -> E3 -> C4 -> A5 -> B2 -> D3 -> E1 -> C5 -> E4 -> D2 -> B5 -> A4 -> C3 -> E5
 If no valid tour can be found, the program will display:
 
-rust
-Copy code
 No knight's tour
-Memory Management
+
+Memory Management:
+
 The program uses dynamic memory allocation to store the chessboard, knight moves, and paths. It ensures that allocated memory is freed after use to prevent memory leaks.
 
 Structure Definitions
