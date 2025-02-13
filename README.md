@@ -35,6 +35,7 @@ rust
 Copy code
 Knight's Path:
 A1 -> B3 -> D4 -> E2 -> C1 -> A2 -> B4 -> D5 -> E3 -> C4 -> A5 -> B2 -> D3 -> E1 -> C5 -> E4 -> D2 -> B5 -> A4 -> C3 -> E5
+
 If no valid tour can be found, the program will display:
 
 No knight's tour
@@ -55,5 +56,3 @@ buildKnightArrayPos(): Builds an array of valid knight moves from a given positi
 findAllPossibleKnightPaths(): Recursively finds all possible knight paths starting from a given position.
 findKnightPathCoveringAllBoard(): Finds a knight's path that covers all the squares on the board.
 display(): Displays the knight's path on the chessboard.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
